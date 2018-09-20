@@ -1,0 +1,254 @@
+body {
+    background-image: url("../images/background.png");
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+#wrapper {
+    height: auto;
+    overflow: auto;
+    min-height: 100%;
+    position: relative;
+
+}
+.formatb {
+    height: 100%;
+    width: 960px;
+    margin: 0 auto -150px auto;
+
+}
+.format {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    text-decoration: none;
+
+}
+header {
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc; 
+    height: 75px;
+
+}
+.headbox {
+    width: 960px;
+    text-decoration: none;
+
+}
+#name {
+    position: relative;
+    float: left;
+    top: 0px;
+    padding-top: 35px;
+    font-family: Georgia;
+    font-size:28px;
+    background-color: #4aaaa5;
+    color:#ffffff;
+    height: 41px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.link {
+    position: relative;
+    float:right;
+    top: 0px;
+    padding-top: 35px;
+    font-family: Georgia;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+* {
+    padding: 0;
+    margin: 0;
+
+}
+nav ul {
+    margin: auto;
+
+}
+nav ul li {
+    
+    width: 90px;
+    float:right;
+    text-align: center;
+
+}
+nav li a {
+color: gray;
+margin-top: 20px;
+line-height: 50px;
+display: block;
+text-align: center;
+border-right: 1px solid #cccccc;
+}
+nav li a:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+
+}
+#box {
+    float: left;
+    width: 650px;
+    height: auto;
+    background-color:#ffffff;
+    font-family: Georgia;
+    border: 1px solid #cccccc;
+    margin-top: 40px;
+
+}
+#AboutMe {
+    color: #4aaaa5;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #cccccc;
+
+
+}
+#picture1 {
+    float: left;
+    margin: 20px;
+
+
+}
+#bio {
+    background-color: #ffffff;
+    padding: 20px;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+.contentBox {
+    float: left;
+    width: 650px;
+    height: auto;
+    background-color: #ffffff;
+    font-family: Georgia;
+    border: 1px solid #cccccc;
+    margin-top: 40px;
+    display: inline-block;
+    overflow: auto;
+
+}
+.contactname {
+    float: left;
+    width: 600px;
+
+}
+.inputText {
+    margin-left: 40px;
+    font-size: 18px;
+
+}
+#message {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border: 1px solid #cccccc;
+
+}
+h3 {
+margin-left: 40px;
+margin-top: 20px;
+color: #cccccc;
+font-family: Georgia;
+font-size: 22px;
+}
+.pics {
+    margin-left: 30px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+
+}
+.a {
+    position: absolute;
+    font-size: 28px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia;
+    margin-top: 150px;
+    padding-left: 50px;
+    padding-right: 127px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.b {
+    position: absolute;
+    float: left;
+    font-size: 28px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia;
+    margin-top: 150px;
+    padding-left: 2px;
+    padding-right: 144px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+
+}
+.c {
+    position: absolute;
+    float: right;
+   font-size: 28px;
+   background-color: #4aaaa5;
+   color: #ffffff;
+   font-family: 'georgia';
+   margin-top: 150px;
+   margin-right: 40px;
+   padding-left: 20px;
+   padding-right: 127px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;
+
+
+}
+.d {
+    position: absolute;
+    float: left;
+   font-size: 28px;
+   background-color: #4aaaa5;
+   color: #ffffff;
+   font-family: 'georgia';
+   margin-top: 150px;
+   margin-right: 40px;
+   padding-left: 20px;
+   padding-right: 29px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;	
+   display: inline-block;
+
+
+}
+.e {
+    position: absolute;
+    float: left;
+   font-size: 28px;
+   background-color: #4aaaa5;
+   color: #ffffff;
+   font-family: 'georgia';
+   margin-top: 150px;
+   margin-right: 40px;
+   padding-left: 20px;
+   padding-right: 32px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: center;	
+
+
+}
