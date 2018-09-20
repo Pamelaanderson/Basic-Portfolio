@@ -1,15 +1,13 @@
 body {
     background-image: url("../images/background.png");
     height: 100%;
-    margin: 0;
-    padding: 0;
+    
 
 }
 #wrapper {
     height: auto;
     overflow: auto;
-    min-height: 100%;
-    position: relative;
+    position: relative
 
 }
 .formatb {
@@ -22,8 +20,7 @@ body {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
-    overflow-x: hidden;
-    text-decoration: none;
+ 
 
 }
 header {
@@ -38,9 +35,9 @@ header {
 
 }
 #name {
-    position: relative;
+    /* position: relative; */
     float: left;
-    top: 0px;
+    /* top: 0px; */
     padding-top: 35px;
     font-family: Georgia;
     font-size:28px;
@@ -51,8 +48,20 @@ header {
     padding-right: 30px;
 
 }
+.link: link{
+    text-decoration: none;
+}
+.link: visited{
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+}
+.link:active {
+    text-decoration: underline;
+}
 .link {
-    position: relative;
+    /* position: relative; */
     float:right;
     top: 0px;
     padding-top: 35px;
@@ -66,30 +75,6 @@ header {
     margin: 0;
 
 }
-nav ul {
-    margin: auto;
-
-}
-nav ul li {
-    
-    width: 90px;
-    float:right;
-    text-align: center;
-
-}
-nav li a {
-color: gray;
-margin-top: 20px;
-line-height: 50px;
-display: block;
-text-align: center;
-border-right: 1px solid #cccccc;
-}
-nav li a:hover {
-    background-color: #4aaaa5;
-    color: #ffffff;
-
-}
 #box {
     float: left;
     width: 650px;
@@ -100,7 +85,7 @@ nav li a:hover {
     margin-top: 40px;
 
 }
-#AboutMe {
+#aboutme {
     color: #4aaaa5;
     font-size: 26px;
     font-weight: bold;
@@ -115,46 +100,50 @@ nav li a:hover {
 #picture1 {
     float: left;
     margin: 20px;
+    
 
 
 }
 #bio {
     background-color: #ffffff;
     padding: 20px;
+    color: #666666;
+    margin: 40px;
+    position: relative;
+    
+}
 
 }
 .clearfix::after {
-    content: "";
+     content: ""; 
     clear: both;
-    display: table;
+    display: table
     
 }
-.contentBox {
-    float: left;
-    width: 650px;
-    height: auto;
-    background-color: #ffffff;
-    font-family: Georgia;
-    border: 1px solid #cccccc;
-    margin-top: 40px;
-    display: inline-block;
-    overflow: auto;
-
-}
-.contactname {
-    float: left;
-    width: 600px;
-
-}
-.inputText {
+.inputtext {
     margin-left: 40px;
     font-size: 18px;
-
 }
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   padding: 20px;
+   margin-left: 40px;
+   margin-bottom: 40px;
+
+   
+}
+
 #message {
-    margin-left: 40px;
+    margin-left: 15px;
     margin-bottom: 40px;
-    border: 1px solid #cccccc;
+    border: 1px solid #cccccc
 
 }
 h3 {
@@ -252,3 +241,21 @@ font-size: 22px;
 
 
 }
+footer {
+	position: absolute;
+	height: 150px;
+	width: 100%;
+	background-color: #666666;
+	border-top: 6px solid #4aaaa5;
+	color: #777777;
+	text-align: center;
+	margin-top: 300px;
+}
+
+
+#copyright {
+	font-size: 20px;
+	width: 100%;
+	margin-top: 50px;
+
+
